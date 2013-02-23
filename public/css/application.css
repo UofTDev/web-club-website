@@ -21,13 +21,20 @@
 	color: ;
 }
 
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+
 body h1 {
 	font-family: 'Lato', sans-serif;
 }
 
 .container-extend {
 	margin-top: -22px;
-	border-bottom: 1px solid #E1E1E1;
+	/*border-bottom: 1px solid #E1E1E1;*/
 	border-top: 3px solid #EBEBEB;
 	margin-bottom: 22px;
 	padding: 30px 0 31px;
@@ -62,7 +69,7 @@ footer {
 	text-align: left;
 	background: #002F64;
 	color: white;
-	min-height: 40px;
+	height: 40px;
 	margin-top: -22px;
 	border-bottom: 1px solid #E1E1E1;
 	border-top: 3px solid #193C64;
@@ -135,7 +142,8 @@ ul.footer-links li a {
 }
 
 .container-extend#sponsors, .container-extend#team, .container-extend#resources, .container-extend#about,  .container-extend#contact, .container-extend#join {
-	min-height: 800px;
+	/*min-height: 800px;*/
+	padding-bottom: 110px;
 }
 
 .team-list .team-list-item:last-child {
@@ -210,4 +218,12 @@ td.explanation{
 
 div.alert.alert-success {
 	margin-top: -22px;
+}
+
+.wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -110px;
+        background-color: rgb(240, 240, 240);
 }

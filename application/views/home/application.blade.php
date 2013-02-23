@@ -24,10 +24,15 @@
 		</div>
 	</nav>
 
+	<div class="wrapper">
 	<div class="contents">
 		@include('plugins.status')
 		@yield('content')
 	</div>
+	</div>
+	
+	<!-- used to place footer at bottom -->
+	<div class="push"><!-- / / --></div> <!-- /push -->
 
 	<footer>
 		<div class="container">

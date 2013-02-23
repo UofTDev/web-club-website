@@ -57,7 +57,7 @@ class Joinus_Controller extends Base_Controller
         $password = "password";
         $from_address   = "uoftdev@gmail.com";
         $from_name     = "JoinUs";
-        $to_address   = "uoftdev@gmail.com"; //uoftdev@gmail.com 
+        $to_address   = "uoftdev@gmail.com";
         $to_name    = "Join Request";
         
         $message_subj  = "Join Request - ".$joinas;
@@ -74,18 +74,24 @@ class Joinus_Controller extends Base_Controller
         $plain_message .= "And they wish to join as a " . $joinas . "\n\n";
         $plain_message .= "Thanks! \n\n---This message was auto-generated from uoftdev.ca/join---";
         
-        //$html_message  = "<a href='http://maxoffsky.com'>Maxoffsky!</a>";
         $mailer = IoC::resolve('mailer');
+        
         $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
         ->setUsername($username)
-        ->setPassword($password);
+        ->setPassword($password);        
+        /*
+        $transporter = Swift_SmtpTransport::newInstance('mail.uoftdev.ca', 25)
+        ->setUsername('web@uoftdev.ca')
+        ->setPassword('password');
+        
+        $transporter = Swift_MailTransport::newInstance();
+        */
         $mailer = Swift_Mailer::newInstance($transporter);
         
         // Construct the message
         $message = Swift_Message::newInstance('Join Request - '.$joinas)
         ->setFrom(array($from_address=>$from_name))
         ->setTo(array($to_address=>$to_name))
-        ->addPart($plain_message,'text/plain')
         ->setBody($plain_message,'text/plain');
         
         // Send the email
