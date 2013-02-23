@@ -31,9 +31,6 @@
 	</div>
 	</div>
 	
-	<!-- used to place footer at bottom -->
-	<div class="push"><!-- / / --></div> <!-- /push -->
-
 	<footer>
 		<div class="container">
 			<a class="dev-logo" href="/">U<span class="of-smaller">of</span>T <span class="dev-box white">Dev</span> </a>
