@@ -57,7 +57,7 @@ class Joinus_Controller extends Base_Controller
         $password = "password";
         $from_address   = "uoftdev@gmail.com";
         $from_name     = "JoinUs";
-        $to_address   = "harshil.1990@gmail.com"; //uoftdev@gmail.com 
+        $to_address   = "uoftdev@gmail.com"; //uoftdev@gmail.com 
         $to_name    = "Join Request";
         
         $message_subj  = "Join Request - ".$joinas;
