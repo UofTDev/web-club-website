@@ -1,0 +1,213 @@
+.dev-box {
+	color: white;
+	background-color: #002F64;
+	border-radius: 4px;
+	padding: 2px;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.dev-box.white {
+	color: #002F64;
+	background-color: #F0F0F0;
+	border-radius: 4px;
+	padding: 2px;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.dev-box:hover {
+	text-decoration: none;
+	color: ;
+}
+
+body h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+.container-extend {
+	margin-top: -22px;
+	border-bottom: 1px solid #E1E1E1;
+	border-top: 3px solid #EBEBEB;
+	margin-bottom: 22px;
+	padding: 30px 0 31px;
+}
+
+.container-extend.white {
+	background: white;
+}
+
+.container-extend.grey {
+	background:#F0F0F0;
+}
+
+#welcome {
+	color: white;
+	height: 400px;
+	background: #002F64 url(/img/toronto-blurred.png) no-repeat top center;
+	text-shadow: 1px 1px #002F64;
+	position: relative;
+}
+
+#welcome .hero-unit {
+	position: relative;
+	z-index: 1;
+}
+
+.of-smaller {
+	font-size: smaller;
+}
+
+footer {
+	text-align: left;
+	background: #002F64;
+	color: white;
+	min-height: 40px;
+	margin-top: -22px;
+	border-bottom: 1px solid #E1E1E1;
+	border-top: 3px solid #193C64;
+	padding: 30px 0 31px;
+}
+
+#ipad {
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	display: none;
+}
+
+.dev-logo {
+  display: block;
+  float: left;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #F0F0F0;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+.dev-logo:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.contents {
+	padding-top: 80px;
+}
+
+.navbar {
+	background:rgba(255,255,255, 0.8);
+}
+.navbar .navbar-inner {
+	/* need to remove, otherwise text overlaps navbar on top
+	background: none;*/
+}
+
+ul.footer-links {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 9px;
+}
+
+ul.footer-links li {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	font-size: 18px;
+	font-weight: 400;
+	color: #F0F0F0;
+	font-family: "Lato", Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul.footer-links li a {
+	font-size: 18px;
+	font-weight: 400;
+	color: #F0F0F0;
+	font-family: "Lato", Helvetica, sans-serif;
+}
+
+#signup-form {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-extend#sponsors, .container-extend#team, .container-extend#resources, .container-extend#about,  .container-extend#contact, .container-extend#join {
+	min-height: 800px;
+}
+
+.team-list .team-list-item:last-child {
+	border-bottom: none;
+}
+
+.team-list .team-list-item {
+	border-bottom: 1px solid #E0E0E0;
+	padding: 5px;
+}
+
+.team-list-item .team-photo, .team-list-item .team-description {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline-block;
+}
+
+.team-list-item .team-photo {
+	margin-right: 30px;
+	height: 200px;
+	width: 300px;
+	background: #E0E0E0;
+	border-right: 5px solid #002F64;
+}
+
+.team-list-item .team-description {
+	vertical-align: top;
+	width: 550px;
+}
+
+input.checkbox {
+	margin: 5px;
+}
+input.radiobox {
+	margin: 5px;
+}
+
+table#joinus {
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid rgb(0, 47, 100);
+}
+
+#joinus tr{
+	padding: 10px;
+}
+
+#joinus td{
+	padding: 3px;
+	padding-right: 20px;
+}
+
+table#joinOptions{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td #joinOptions{
+	vertical-align:top;
+}
+td.explanation{
+	padding-left:10px;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: rgb(0, 47, 100);
+  text-decoration: shadow;
+  background-color: transparent;
+}
+
+div.alert.alert-success {
+	margin-top: -22px;
+}
