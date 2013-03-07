@@ -26,6 +26,7 @@
       <ul>
           <li><a href="/documents/WebResources.pdf">Web Resources </a></li>
           <li><a href="/documents/Web_Lecture_1.zip">Lecture 1 Files</a></li>
+          <li><a href="/documents/tictactoe.zip">Lecture 2 Resources</a></li>
       </ul>
   </div>
 </div>
