@@ -52,13 +52,6 @@ class Joinus_Controller extends Base_Controller
         if( $validation->fails() ) {
             return Redirect::to('join')->with_errors($validation);
         }
-
-        $username = "uoftdev@gmail.com";
-        $password = "password";
-        $from_address   = "uoftdev@gmail.com";
-        $from_name     = "JoinUs";
-        $to_address   = "uoftdev@gmail.com";
-        $to_name    = "Join Request";
         
         $message_subj  = "Join Request - ".$joinas;
         $plain_message  = "Hi There! \n\nYou have a join request, details below: \n\n";
@@ -73,29 +66,9 @@ class Joinus_Controller extends Base_Controller
         $plain_message .= "Additional Info = \t\t\t" . $about . "\n";
         $plain_message .= "And they wish to join as a " . $joinas . "\n\n";
         $plain_message .= "Thanks! \n\n---This message was auto-generated from uoftdev.ca/join---";
-        
-        $mailer = IoC::resolve('mailer');
-        
-        $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
-        ->setUsername($username)
-        ->setPassword($password);        
-        /*
-        $transporter = Swift_SmtpTransport::newInstance('mail.uoftdev.ca', 25)
-        ->setUsername('web@uoftdev.ca')
-        ->setPassword('password');
-        
-        $transporter = Swift_MailTransport::newInstance();
-        */
-        $mailer = Swift_Mailer::newInstance($transporter);
-        
-        // Construct the message
-        $message = Swift_Message::newInstance('Join Request - '.$joinas)
-        ->setFrom(array($from_address=>$from_name))
-        ->setTo(array($to_address=>$to_name))
-        ->setBody($plain_message,'text/plain');
-        
+                
         // Send the email
-        $numSent = $mailer->send($message);
+        $numSent = mail('uoftdev@gmail.com', $message_subj, $plain_message);
         if ($numSent == 1) {
         	$status_message = "Thank You!";
         	return Redirect::to('join')->with('success', 1)->with('status_success', $status_message);
