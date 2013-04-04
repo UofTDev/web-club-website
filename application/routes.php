@@ -69,6 +69,11 @@ Route::get('/contact', function()
     return View::make('home.contact');
 });
 
+Route::get('/devTalk', function()
+{
+		return View::make('home.devtalk');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers

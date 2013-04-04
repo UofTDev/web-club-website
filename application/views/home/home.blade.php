@@ -44,7 +44,13 @@
             <!-- Carousel items -->
 
             <div class="carousel-inner">
-
+                <!-- <div class="item"><a href="/devTalk"><img src="/img/Dev_Talk.jpg"></a>
+                    <div class="carousel-caption">
+                        <a href="/devTalk"><h4>Developers Talk</h4></a>
+                        <p><a href="https://www.atendy.com/event/speaker-and-networking-2280" target="_blank" >Register now!</a> Seats are on a first come basis</p>
+                    </div>
+                </div> -->
+                
                 <div class="active item"><img src="/img/ios_lecture.jpg">
                     <div class="carousel-caption">
                         <h4>iOS Lecture</h4>
