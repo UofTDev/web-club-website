@@ -13,11 +13,17 @@
 			<div class="container">
 				<a class="brand" href="/">U<span class="of-smaller">of</span>T <span class="dev-box">Dev</span> </a>
 				<ul class="nav">
-					<li <?php echo URI::is('*about*') ? 'class="active"' : '' ?>><a href="/about">About</a></li>
-					<li <?php echo URI::is('*contact*') ? 'class="active"' : '' ?>><a href="/contact">Contact</a></li>
+					<li <?php echo URI::is('*about*') ? 'class="active"' : '' ?>
+							<?php echo URI::is('*execs*') ? 'class="active"' : '' ?>
+							<?php echo URI::is('*contact*') ? 'class="active"' : '' ?>><a href="#">About</a>
+						<ul>
+							<li style="line-height:30px" <?php echo URI::is('*about*') ? 'class="active"' : '' ?>><a href="/about">Mission</a></li>
+							<li style="line-height:30px" <?php echo URI::is('*execs*') ? 'class="active"' : '' ?>><a href="/execs">Execs</a></li>
+							<li style="line-height:30px" <?php echo URI::is('*contact*') ? 'class="active"' : '' ?>><a href="/contact">Contact</a></li>
+						</ul>
+					</li>
 					<li <?php echo URI::is('*join*') ? 'class="active"' : '' ?>><a href="/join">Join us</a></li>
 					{{--<li><a href="/sponsors">Sponsors</a></li>--}}
-					<li <?php echo URI::is('*execs*') ? 'class="active"' : '' ?>><a href="/execs">Execs</a></li>
 					<li <?php echo URI::is('*resources*') ? 'class="active"' : '' ?>><a href="/resources">Resources</a></li>
 				</ul>
 			</div>

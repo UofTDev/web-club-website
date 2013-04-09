@@ -34,19 +34,20 @@ class Joinus_Controller extends Base_Controller
             'year' => 'required',
             'major' => 'required|match:"/^([a-z\x20\.+_\,#;-])+$/i"',	
         		//'number' => 'required|numeric|min:100000000|max:9999999999',
-        		'language' => 'match:"/^([a-z\x20\.+_\,#;-])+$/i"',
-        		'platform' => 'match:"/^([a-z\x20\.+_\,#;-])+$/i"',
-        		'about' => 'match:"/^([a-z\x20\.+_\,#;-])+$/i"'
+        		'language' => 'match:"/^([^<])+$/i"',	//prevent agnst XSS
+        		'platform' => 'match:"/^([^<])+$/i"',
+        		'about' => 'match:"/^([^<])+$/i"',
         );
         $messages = array(
         		'year_required' => 'Please enter your year of study',
         		'major_required' => 'Please enter your field of study',
-        		'match' => 'The :attribute must have alphabetical values',	//alpha + spaces
+        		'match' => 'The :attribute must have alphanumeric values',	//alpha + spaces
         		'number_required' => 'Student number is required',
         		'number_numeric' => 'Only numerical values for student number',
         		'number_min' => 'Student number can only be 9 or 10 digits long',
         		'number_max' => 'Student number can only be 9 or 10 digits long',        		
         );
+        Input::flash();
         
         $validation = Validator::make($input, $rules, $messages);
         if( $validation->fails() ) {
@@ -56,14 +57,14 @@ class Joinus_Controller extends Base_Controller
         $message_subj  = "Join Request - ".$joinas;
         $plain_message  = "Hi There! \n\nYou have a join request, details below: \n\n";
         
-        $plain_message .= "Name = \t\t\t\t\t" . $name . "\n";
-        $plain_message .= "Email = \t\t\t\t" . $email . "\n";
-        $plain_message .= "Year of Study = \t\t\t" . $year . "\n";
-        $plain_message .= "Field of Study = \t\t\t" . $major . "\n";
-        $plain_message .= "Programming Languages = \t" . $language . "\n";
-        $plain_message .= "Development Platforms = \t" . $platform . "\n";
-        $plain_message .= "Team(s) of Interest = \t\t\t" . $team1 . " " . $team2 . " " . $team3 . " " . $team4 . "\n";
-        $plain_message .= "Additional Info = \t\t\t" . $about . "\n";
+        $plain_message .= "Name = " . $name . "\n";
+        $plain_message .= "Email = " . $email . "\n";
+        $plain_message .= "Year of Study = " . $year . "\n";
+        $plain_message .= "Field of Study = " . $major . "\n";
+        $plain_message .= "Programming Languages = " . $language . "\n";
+        $plain_message .= "Development Platforms = " . $platform . "\n";
+        $plain_message .= "Team(s) of Interest = " . $team1 . " " . $team2 . " " . $team3 . " " . $team4 . "\n";
+        $plain_message .= "Additional Info = " . $about . "\n";
         $plain_message .= "And they wish to join as a " . $joinas . "\n\n";
         $plain_message .= "Thanks! \n\n---This message was auto-generated from uoftdev.ca/join---";
                 
