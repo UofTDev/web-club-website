@@ -21,7 +21,7 @@
 
 </div>
 
-<div class="container-extend grey">
+<div class="container-extend grey" style="padding-bottom: 53px;">
 
     <div class="container">
         <h1>Who are we?</h1>
@@ -44,14 +44,21 @@
             <!-- Carousel items -->
 
             <div class="carousel-inner">
-                <!-- <div class="item"><a href="/devTalk"><img src="/img/Dev_Talk.jpg"></a>
+                <div class="active item"><img src="/img/1stDevTalk.jpg"></a>
                     <div class="carousel-caption">
-                        <a href="/devTalk"><h4>Developers Talk</h4></a>
-                        <p><a href="https://www.atendy.com/event/speaker-and-networking-2280" target="_blank" >Register now!</a> Seats are on a first come basis</p>
+                        <h4>Developers Talk</h4></a>
+                        <p>Attendees mixing up in the 1st Developers Talk</p>
                     </div>
-                </div> -->
+                </div>
                 
-                <div class="active item"><img src="/img/ios_lecture.jpg">
+                <div class="item"><img src="/img/BorisChanXtremeLabs.jpg"></a>
+                    <div class="carousel-caption">
+                        <h4>Developers Talk</h4></a>
+                        <p>Boris Chan, Director of Engineering at Xtreme labs speaking at the 1st Developers Talk</p>
+                    </div>
+                </div>
+                
+                <div class="item"><img src="/img/ios_lecture.jpg">
                     <div class="carousel-caption">
                         <h4>iOS Lecture</h4>
                         <p>Francis Lata leads one of the iOS lectures</p>
@@ -69,20 +76,6 @@
                     <div class="carousel-caption">
                         <h4>Meet and Greet</h4>
                         <p>UofTDev president Emad Alaydi speaks at the meet and greet.</p>
-                    </div>
-                </div>
-
-                <div class="item"><img src="/img/mg2.jpg">
-                    <div class="carousel-caption">
-                        <h4>Meet and Greet</h4>
-                        <p>Attendees of the meet and greet.</p>
-                    </div>
-                </div>
-
-                <div class="item"><img src="/img/mg3.jpg">
-                    <div class="carousel-caption">
-                        <h4>Meet and Greet</h4>
-                        <p>UofT Developers members mixing and talking.</p>
                     </div>
                 </div>
             </div>

@@ -36,8 +36,8 @@ body h1 {
 	margin-top: -22px;
 	/*border-bottom: 1px solid #E1E1E1;*/
 	border-top: 3px solid #EBEBEB;
-	margin-bottom: 22px;
-	padding: 30px 0 31px;
+	/*margin-bottom: 22px;*/
+	padding: 30px 0 110px;
 }
 
 .container-extend.white {
@@ -54,6 +54,8 @@ body h1 {
 	background: #002F64 url(/img/toronto-blurred.png) no-repeat top center;
 	text-shadow: 1px 1px #002F64;
 	position: relative;
+	padding-bottom: 31px;
+	margin-bottom: 22px;
 }
 
 #welcome .hero-unit {
@@ -70,10 +72,10 @@ footer {
 	background: #002F64;
 	color: white;
 	height: 40px;
-	margin-top: -22px;
+	/*margin-top: -22px;*/
 	border-bottom: 1px solid #E1E1E1;
 	border-top: 3px solid #193C64;
-	padding: 30px 0 31px;
+	padding: 30px 0 30px;
 }
 
 #ipad {
@@ -143,7 +145,7 @@ ul.footer-links li a {
 
 .container-extend#sponsors, .container-extend#team, .container-extend#resources, .container-extend#about,  .container-extend#contact, .container-extend#join {
 	/*min-height: 800px;*/
-	padding-bottom: 110px;
+	padding-bottom: 120px;
 }
 
 .team-list .team-list-item:last-child {
@@ -224,6 +226,64 @@ div.alert.alert-success {
         min-height: 100%;
         height: auto !important;
         height: 100%;
-        margin: 0 auto -110px;
+        margin: 0 auto -104px;
         background-color: rgb(240, 240, 240);
+}
+
+table#sponsors {
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: separate;
+	border-spacing:50px 0px;
+}
+#sponsors td {	
+	border: 3px solid rgb(0, 47, 100);
+}
+#sponsors img {
+	width:200px;
+}
+
+table#partners {	
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: separate;
+	border-spacing:50px 0px;
+}
+#partners td{	
+	border: 3px solid rgb(0, 47, 100);
+}
+#partners img {
+	width:200px;
+}
+
+.portfolio img {
+	width:200px;
+	padding-right: 20px;
+}
+
+.portfolio td{
+	vertical-align:top;
+}
+
+.titles{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.portfolioHR {
+	border: 1px solid rgb(0, 47, 100);
+}
+
+.portfolioDetails {
+	font-size: 0.9em;
+}
+
+.portfolioDetails table{
+	font-size: 1.11em;
+}
+
+div.item img {
+	height: 400px;
+	width: 940px;
+}
 }

@@ -68,11 +68,15 @@ Route::get('/contact', function()
 {
     return View::make('home.contact');
 });
-
+Route::get('/portfolio', function()
+{
+	return View::make('home.portfolio');
+});
+/*
 Route::get('/devTalk', function()
 {
 		return View::make('home.devtalk');
-});
+});*/
 
 /*
 |--------------------------------------------------------------------------

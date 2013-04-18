@@ -16,15 +16,16 @@
 					<li <?php echo URI::is('*about*') ? 'class="active"' : '' ?>
 							<?php echo URI::is('*execs*') ? 'class="active"' : '' ?>
 							<?php echo URI::is('*contact*') ? 'class="active"' : '' ?>><a href="#">About</a>
-						<ul>
+						<ul class="dropdown-menu">
 							<li style="line-height:30px" <?php echo URI::is('*about*') ? 'class="active"' : '' ?>><a href="/about">Mission</a></li>
 							<li style="line-height:30px" <?php echo URI::is('*execs*') ? 'class="active"' : '' ?>><a href="/execs">Execs</a></li>
 							<li style="line-height:30px" <?php echo URI::is('*contact*') ? 'class="active"' : '' ?>><a href="/contact">Contact</a></li>
 						</ul>
 					</li>
 					<li <?php echo URI::is('*join*') ? 'class="active"' : '' ?>><a href="/join">Join us</a></li>
-					{{--<li><a href="/sponsors">Sponsors</a></li>--}}
 					<li <?php echo URI::is('*resources*') ? 'class="active"' : '' ?>><a href="/resources">Resources</a></li>
+					<li <?php echo URI::is('*portfolio*') ? 'class="active"' : '' ?>><a href="/portfolio">Portfolio</a></li>
+					<li <?php echo URI::is('*sponsors*') ? 'class="active"' : '' ?>><a href="/sponsors">Sponsors and Partners</a></li>
 				</ul>
 			</div>
 		</div>
