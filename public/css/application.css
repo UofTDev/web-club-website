@@ -238,6 +238,8 @@ table#sponsors {
 }
 #sponsors td {	
 	border: 3px solid rgb(0, 47, 100);
+	width: 200px;
+	height: 200px;
 }
 #sponsors img {
 	width:200px;
@@ -251,13 +253,15 @@ table#partners {
 }
 #partners td{	
 	border: 3px solid rgb(0, 47, 100);
+	width: 200px;
+	height: 200px;
 }
 #partners img {
 	width:200px;
 }
 
 .portfolio img {
-	width:200px;
+	max-width:200px;
 	padding-right: 20px;
 }
 
@@ -285,5 +289,4 @@ table#partners {
 div.item img {
 	height: 400px;
 	width: 940px;
-}
 }
