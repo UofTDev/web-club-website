@@ -32,13 +32,13 @@
             <div class="team-list-item">
                 <div class="team-photo"></div>
                 <div class="team-description">
-                    <h3>VP Communications - Candi Kimberly chin-sang</h3>
+                    <h3>VP Communications - Candi Kimberly Chin-Sang</h3>
 
                     <p></p>
                 </div>
             </div>
             <div class="team-list-item">
-                <div class="team-photo"><img src="/img/Haneef.jpg" alt=""></div>
+                <div class="team-photo"></div>
                 <div class="team-description">
                     <h3>Web Director - Hossein Haider</h3>
 
