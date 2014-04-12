@@ -24,10 +24,9 @@
 <div class="container-extend grey" style="padding-bottom: 53px;">
 
     <div class="container">
-        <h1>Who are we?</h1>
+        <h1>Who Are We?</h1>
 
-        <h3>The U of T developers club was founded by a group of people who are passionate about making cool stuff,
-            whether it be apps, websites or whatever else we can think of!</h3>
+        <h3>University of Toronto Developers was founded by a group of students who are passionate about software, building apps, and spreading the knowledge.</h3>
         <a href='/about' class="btn btn-primary"> More info</a>
     </div>
 
