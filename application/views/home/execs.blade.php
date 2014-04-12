@@ -3,38 +3,31 @@
 @section('content')
 <div class="container-extend grey" id="team">
     <div class="container">
-        <h1>The Exec Team</h1>
+        <h1>Executive Team</h1>
 
         <div class="team-list">
             <div class="team-list-item">
-                <div class="team-photo"><img src="/img/Kristoffer.jpg" alt=""></div>
+                <div class="team-photo"><img src="/img/exec/exec_pres.png" alt=""></div>
                 <div class="team-description">
                     <h3>President - Kristoffer Flores</h3>
 
-                    <p>Kris is currently studying Mechanical Engineering at the University of Toronto (1T4). He is
-                        enrolled in the Mechatronics and Bioengineering options as well as minoring in the latter.
-                        When he is not doing any finance work for the club, he is working on a project with Sick Kids
-                        Hospital and the Institute of Healthcare Improvement.
-                        He enjoys coding, basketball, tennis, and staying up to date with the mobile industry.</p>
+                    <p>Kris is currently studying Mechanical Engineering and minoring in Mechatronics. He is doing an internship at BlackBerry as a Software Developer/Tester using web technologies related to Node.js. He is interested in software, quality improvement and electronics. He enjoys coding, basketball, tennis, and staying up to date with the mobile industry.</p>
                 </div>
             </div>
             <div class="team-list-item">
-                <div class="team-photo"></div>
+                <div class="team-photo"><img src="/img/exec/exec_vp.png" alt=""></div>
                 <div class="team-description">
-                    <h3>VP - Mehran Hydary</h3>
+                    <h3>Vice President - Mehran Hydary</h3>
 
-                    <p>Mehran is an Electrical Engineering student at the University of Toronto. He has completed an 
-                        internship at AMD and he is currently working at Hydro One. His main interests are in the field 
-                        of Project Management, Power Systems and Telecommunications. Mehran also enjoys taking long runs 
-                        in the park.</p>
+                    <p>Mehran is an Electrical Engineering student at the University of Toronto. He has completed an internship at AMD and he is currently working at Hydro One. His main interests are in the field of Project Management, Power Systems and Telecommunications. Mehran also enjoys taking long runs in the park.</p>
                 </div>
             </div>
             <div class="team-list-item">
-                <div class="team-photo"></div>
+                <div class="team-photo"><img src="/img/exec/exec_comm.png" alt=""></div>
                 <div class="team-description">
-                    <h3>VP Communications - Candi Kimberly Chin-Sang</h3>
+                    <h3>VP Communications - Candi Chin-Sang</h3>
 
-                    <p></p>
+                    <p>Candi is majoring in Criminology Studies and Equity Studies, with a minor in Caribbean Studies. She is the president of CARSSU and and executive for University College Orientation. She is currently developing a volunteer initiative for incoming first year students. She is one of two students selected for an international initiative on sustainability, requiring her to travel to Belize in summer 2014 to work with the locals. She enjoys biking and Muy Thai kickboxing.</p>
                 </div>
             </div>
             <div class="team-list-item">
@@ -42,9 +35,7 @@
                 <div class="team-description">
                     <h3>Web Director - Hossein Haider</h3>
 
-                    <p>Hossein is a Computer Engineering student at the University of Toronto. He is currently completing 
-                        PEY at Ontario Teachers' Pension Plan as a Software Developer, mainly working with Java and other 
-                        web technologies. He is interested in Software Development methodologies, and web technologies.</p>
+                    <p>Hossein is a Computer Engineering student at the University of Toronto. He is currently completing an internship at Ontario Teachers' Pension Plan as a Software Developer, mainly working with Java and other web technologies. He is interested in Software Development methodologies, and web technologies.</p>
                 </div>
             </div>
         </div>
