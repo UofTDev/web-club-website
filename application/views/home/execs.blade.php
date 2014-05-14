@@ -3,7 +3,8 @@
 @section('content')
 <div class="container-extend grey" id="team">
     <div class="container">
-        <h1>Executive Team</h1>
+    <div class="hero-unit">
+        <h2>Executive Team</h2>
 
         <div class="team-list">
             <div class="team-list-item">
@@ -39,6 +40,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 @endsection
