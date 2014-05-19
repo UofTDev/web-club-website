@@ -163,7 +163,9 @@ ul.about-list li {
     padding: 5px;
 }
 
-.team-list-item .team-photo, .team-list-item .team-description {
+.team-list-item .team-photo, 
+.team-list-item .app-photo,
+.team-list-item .team-description {
     display: inline-block;
     *zoom: 1;
     *display: inline-block;
@@ -177,9 +179,25 @@ ul.about-list li {
     border-right: 5px solid #002F64;
 }
 
+.team-list-item .app-photo {
+    margin-right: 30px;
+    height: 178px;
+    width: 200px;
+}
+
 .team-list-item .team-description {
     vertical-align: top;
     width: 550px;
+}
+
+.team-photo, .app-photo {
+    margin-top: 21px;
+}
+
+.download-btn {
+    position: relative;
+    margin-top: 20px;
+    left: 36px;
 }
 
 input.checkbox {
@@ -277,7 +295,6 @@ table#partners {
 
 .titles{
     font-weight:bold;
-    text-decoration:underline;
 }
 
 .portfolioHR {
