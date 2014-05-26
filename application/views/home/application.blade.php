@@ -16,8 +16,8 @@
                    
                     <li <?php echo URI::is('*about*') ? 'class="active"' : '' ?>><a href="/about">About</a></li>
                     <li <?php echo URI::is('*join*') ? 'class="active"' : '' ?>><a href="/join">Join</a></li>
-                    <li <?php echo URI::is('*resources*') ? 'class="active"' : '' ?>><a href="/resources">Resources</a></li>
                     <li <?php echo URI::is('*portfolio*') ? 'class="active"' : '' ?>><a href="/portfolio">Portfolio</a></li>
+                    <li <?php echo URI::is('*resources*') ? 'class="active"' : '' ?>><a href="/resources">Resources</a></li>
                     <li <?php echo URI::is('*sponsors*') ? 'class="active"' : '' ?>><a href="/sponsors">Sponsors</a></li>
                     <li <?php echo URI::is('*execs*') ? 'class="active"' : '' ?>><a href="/execs">The Team</a></li>
                     <li <?php echo URI::is('*contact*') ? 'class="active"' : '' ?>><a href="/contact">Contact</a></li>
