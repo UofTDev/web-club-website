@@ -26,7 +26,7 @@
     <div class="container">
         <h1>Who Are We?</h1>
 
-        <h3>University of Toronto Developers was founded by a group of students who are passionate about software, building apps, and spreading the knowledge.</h3>
+        <h4>University of Toronto Developers was founded by a group of students who are passionate about software, building apps, and spreading the knowledge.</h4>
         <a href='/about' class="btn btn-primary"> More info</a>
     </div>
 
