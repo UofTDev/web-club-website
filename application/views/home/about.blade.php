@@ -11,7 +11,7 @@
                 <ul class="about-list">
                     <li>using the latest and greatest technologies for development and management</li>
                     <li>ensuring our technical leaders have professional experience in their field</li>
-                    <li>building relationships with other companies, entrpreneurs and student organizations</li>
+                    <li>building relationships with other companies, entrepreneurs and student organizations</li>
                 </ul>
                 </p>
         </div>
