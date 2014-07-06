@@ -1,6 +1,6 @@
 #UofTDev Website
 This repo contains the source code for www.uoftdev.ca.
-To view any work in progress, please visit our [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/1074670), under the "website" tag.
+To view any work in progress, please visit our [Trello board](https://trello.com/b/slPznayp/website).
 
 ## How to Contribute
 1. Make a branch or fork containing your change
