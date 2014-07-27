@@ -22,13 +22,6 @@
                     </div>
                 </div>
                 <div class="team-list-item">
-                    <div class="team-photo"><img src="/img/exec/exec_comm.png" alt=""></div>
-                    <div class="team-description">
-                        <h3>VP Communications - Candi Chin-Sang</h3>
-                        <p>Candi is majoring in Criminology Studies and Equity Studies, with a minor in Caribbean Studies. She is the president of CARSSU and and executive for University College Orientation. She is currently developing a volunteer initiative for incoming first year students. She is one of two students selected for an international initiative on sustainability, requiring her to travel to Belize in summer 2014 to work with the locals. She enjoys biking and Muy Thai kickboxing.</p>
-                    </div>
-                </div>
-                <div class="team-list-item">
                     <div class="team-photo"></div>
                     <div class="team-description">
                         <h3>Web Director - Hossein Haider</h3>
